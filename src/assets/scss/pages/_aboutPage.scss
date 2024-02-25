@@ -1,0 +1,126 @@
+.aboutPage {
+  padding-top: 50px;
+  .container {
+    .row {
+      flex-direction: column;
+      .top {
+        display: flex;
+        .topInfo {
+          padding: 0px 50px;
+          p {
+            line-height: 2.5;
+            font-size: 17px;
+          }
+        }
+      }
+      .bottom {
+        margin-top: 50px;
+        p {
+          line-height: 2;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+
+// Responsiveness
+@media screen and (max-width: 1300px) {
+  .aboutPage {
+    .container {
+      .row {
+        .top {
+          .topInfo {
+            p {
+              line-height: 1.5;
+              font-size: 18px;
+            }
+          }
+        }
+        .bottom {
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1027px) {
+  .aboutPage {
+    .container {
+      .row {
+        .top {
+          .topInfo {
+            p {
+              line-height: 1;
+              font-size: 16px;
+            }
+          }
+        }
+        .bottom {
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 914px) {
+  .aboutPage {
+    .container {
+      .row {
+        .top {
+          .topInfo {
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+        .bottom {
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 726px) {
+  .aboutPage {
+    padding-top: 50px;
+    .container {
+      .row {
+        flex-direction: column;
+        .top {
+          display: flex;
+          .topInfo {
+            padding: 0px 50px;
+            p {
+              line-height: 2.5;
+              font-size: 17px;
+            }
+          }
+          .topImg {
+            width: 300%;
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+        .bottom {
+          margin-top: 50px;
+          p {
+            line-height: 2;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}

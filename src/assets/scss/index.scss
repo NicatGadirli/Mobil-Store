@@ -1,0 +1,19 @@
+//Components
+@import "./components/header";
+@import "./components/header2";
+@import "./components/card";
+
+// Pages
+@import "./pages/aboutPage";
+@import "./pages/favorites";
+@import "./pages/contactus";
+@import "./pages/pay";
+@import "./pages/cart";
+@import "./pages/account";
+
+// Sections
+@import "./pages/sections/main";
+@import "./pages/sections/hero";
+
+// Global Styles
+@import "./pages/base";

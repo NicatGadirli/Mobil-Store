@@ -1,0 +1,98 @@
+.header {
+  background: transparent;
+  z-index: 9999;
+  position: relative;
+  .container {
+    .row {
+      justify-content: space-between;
+      padding: 30px 0;
+      .logo {
+        h4 {
+          color: #000;
+          font-family: Poppins;
+          font-size: 28.338px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 38.964px;
+        }
+      }
+      .navBar {
+        width: 20%;
+        .navList {
+          display: flex;
+          justify-content: space-evenly;
+          .navListItem {
+            a {
+              color: #000;
+              font-family: Heebo;
+              font-size: 17px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 140%;
+            }
+          }
+        }
+      }
+      .navBox {
+        display: flex;
+        justify-content: space-between;
+        width: 10%;
+        .navBoxElement {
+          svg {
+            width: 27px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Responsivness
+
+@media screen and (max-width: 1200px) {
+  .header {
+    .container {
+      .row {
+        justify-content: space-around;
+        .navBar {
+          width: 26%;
+        }
+        .navBox {
+          width: 10%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .header {
+    .container {
+      .row {
+        justify-content: space-around;
+        .navBar {
+          width: 35%;
+        }
+        .navBox {
+          width: 13%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    .container {
+      .row {
+        justify-content: space-around;
+        .navBar {
+          display: none;
+        }
+        .navBox {
+          width: 25%;
+        }
+      }
+    }
+  }
+}

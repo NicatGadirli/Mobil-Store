@@ -1,0 +1,71 @@
+.pay {
+  padding: 20px 0;
+  .container {
+    .title {
+      h3 {
+        text-align: center;
+      }
+    }
+    .row {
+      width: 100%;
+      justify-content: center;
+      margin-top: 50px;
+      form {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        input,
+        select,
+        textarea {
+          outline: 0;
+          padding: 5px;
+          border-radius: 5px;
+          border: 1px solid #d4d6c8;
+          font-size: 17px;
+        }
+        .inputBox {
+          input,
+          select {
+            width: 100%;
+          }
+          textarea {
+            resize: none;
+            max-width: 100%;
+          }
+        }
+        .contactBox {
+          display: flex;
+          justify-content: space-between;
+          .element {
+            width: 45%;
+            input {
+              width: 100%;
+            }
+          }
+        }
+        .contactBox2 {
+          display: flex;
+          gap: 5px;
+          label,
+          input {
+            margin-top: 1px;
+          }
+        }
+        .btn {
+          button {
+            width: 100%;
+            background-color: #0074e4;
+            color: #fff;
+            outline: 0;
+            border: 0;
+            font-size: 17px;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

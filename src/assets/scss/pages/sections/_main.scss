@@ -1,0 +1,66 @@
+.main {
+  margin: 30px 20px;
+  font-family: "Heebo", sans-serif;
+  position: absolute;
+  top: 100%;
+  .container {
+    .row {
+      flex-direction: column;
+      .selectionsBox {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        .selected {
+          padding: 12px 20px;
+          border-radius: 12px;
+          border: 1px solid #b4b4b4;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          cursor: pointer;
+        }
+      }
+      .partOfTheSection {
+        margin-top: 50px;
+        .title {
+          margin: 20px 0;
+          p {
+            color: #000;
+            font-feature-settings: "clig" off, "liga" off;
+            font-family: Heebo;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%;
+          }
+        }
+        .cardBox {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+// Responsivness
+@media screen and (max-width: 761px) {
+  .main {
+    margin: 30px 0;
+    .container {
+      .row {
+        .selectionsBox {
+          justify-content: center;
+          gap: 20px;
+          flex-wrap: wrap;
+        }
+        .partOfTheSection {
+          p {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+}

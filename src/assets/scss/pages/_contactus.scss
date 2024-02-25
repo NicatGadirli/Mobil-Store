@@ -1,0 +1,62 @@
+.contactUs {
+  font-family: "Heebo", sans-serif;
+  .container {
+    .title {
+      h2 {
+        text-align: center;
+        font-size: 50px;
+        text-decoration: underline;
+      }
+    }
+    .row {
+      margin-top: 80px;
+      justify-content: space-evenly;
+      width: 100%;
+      .left {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .contact {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          a {
+            color: #000;
+          }
+        }
+      }
+      .right {
+        width: 30%;
+        .inputBox {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          input,
+          textarea {
+            outline: none;
+            border: none;
+            background-color: #e3e3e3;
+            padding: 12px 5px;
+            border-radius: 5px;
+            font-size: 17px;
+            resize: none;
+          }
+        }
+        .btnBox {
+          margin-top: 20px;
+          button {
+            background-color: #0074e4;
+            color: #fff;
+            width: 100%;
+            outline: 0;
+            border: 0;
+            padding: 13px;
+            font-size: 17px;
+            border-radius: 7px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

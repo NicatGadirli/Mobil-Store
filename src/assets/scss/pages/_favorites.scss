@@ -1,0 +1,28 @@
+.favorites {
+  .container {
+    .row {
+      .partOfTheSection {
+        margin-top: 50px;
+        .title {
+          margin: 20px 0;
+          p {
+            color: #000;
+            font-feature-settings: "clig" off, "liga" off;
+            font-family: Heebo;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%;
+          }
+        }
+        .cardBox {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

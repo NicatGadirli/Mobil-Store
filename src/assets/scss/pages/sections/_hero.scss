@@ -1,0 +1,152 @@
+.hero {
+  background-image: url(../../../images/sectionImgs/a91bf40e232fe7c84fcaba532913990a.jpeg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  .afterHeader {
+    .searchArea {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      height: 85vh;
+      .inputBox {
+        input {
+          width: 870px;
+          height: 50px;
+          padding: 12px 43px;
+          border-radius: 12px;
+          border: 1px solid #cfcfcf;
+          background: #f5f2f2;
+          position: relative;
+          font-size: 17px;
+          &:focus {
+            outline: none;
+          }
+        }
+        .search {
+          position: absolute;
+          left: 21%;
+          margin: 15px 4px;
+          cursor: pointer;
+        }
+      }
+      .filterIcon {
+        padding-top: 11px;
+        cursor: pointer;
+      }
+    }
+    .createDesign {
+      a {
+        display: flex;
+        width: 300px;
+        height: 64px;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        font-family: Heebo;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        border-radius: 8px;
+        border: 1px solid #fff;
+      }
+    }
+  }
+}
+
+// Responsivness
+@media screen and (max-width: 1490px) {
+  .hero {
+    .afterHeader {
+      .searchArea {
+        .inputBox {
+          .search {
+            display: none;
+          }
+        }
+      }
+      .createDesign {
+        margin-left: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero {
+    .afterHeader {
+      .searchArea {
+        .inputBox {
+          input {
+            width: 700px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .hero {
+    .afterHeader {
+      .searchArea {
+        .inputBox {
+          input {
+            width: 520px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .hero {
+    .afterHeader {
+      .searchArea {
+        .inputBox {
+          input {
+            width: 330px;
+            height: 50px;
+          }
+        }
+      }
+      .createDesign {
+        a {
+          width: 215px;
+          height: 55px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .hero {
+    .afterHeader {
+      .searchArea {
+        .inputBox {
+          input {
+            width: 215px;
+            height: 47px;
+            padding: 12px 11px;
+          }
+        }
+      }
+      .createDesign {
+        a {
+          width: 141px;
+          height: 40px;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
